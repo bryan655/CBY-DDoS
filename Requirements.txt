@@ -1,0 +1,69 @@
+====================================================================
+          INSTRUÇÕES DE INSTALAÇÃO - CBY DDoS (HTTP Load Tester)
+====================================================================
+
+Este programa foi feito em Python e usa apenas uma biblioteca externa:
+- requests (para fazer as requisições HTTP)
+
+Ele roda em Windows, Linux ou macOS.
+
+PASSO A PASSO:
+
+1. CERTIFIQUE-SE DE TER O PYTHON INSTALADO
+   - Versão recomendada: Python 3.8 ou superior
+   - Baixe em: https://www.python.org/downloads/
+   - Durante a instalação no Windows, marque a opção:
+     "Add Python to PATH" (importante!)
+
+   Para verificar se já tem:
+   Abra o Prompt de Comando (Windows) ou Terminal (Linux/macOS) e digite:
+   python --version
+   ou
+   python3 --version
+
+   Deve aparecer algo como "Python 3.11.x" ou superior.
+
+2. INSTALE A BIBLIOTECA NECESSÁRIA (requests)
+   No Prompt de Comando ou Terminal, execute:
+
+   pip install requests
+
+   (ou, em alguns sistemas Linux/macOS):
+   pip3 install requests
+
+   Se aparecer "pip not found", tente:
+   python -m ensurepip --upgrade
+   python -m pip install --upgrade pip
+   depois repita o comando pip install requests
+
+3. SALVE O CÓDIGO DO PROGRAMA
+   - Copie todo o código Python que eu te enviei
+   - Abra o Bloco de Notas (ou qualquer editor de texto)
+   - Cole o código
+   - Salve o arquivo como: cby_ddos.py
+     IMPORTANTE: escolha "Todos os arquivos" e coloque .py no final
+
+4. EXECUTE O PROGRAMA
+   Abra o Prompt de Comando/Terminal na pasta onde salvou o arquivo e digite:
+
+   python cby_ddos.py
+
+   (ou python3 cby_ddos.py no Linux/macOS)
+
+   A janela gráfica do CBY DDoS vai abrir.
+
+====================================================================
+DICAS EXTRAS:
+- Se quiser um ambiente isolado (recomendado), crie um virtualenv:
+  python -m venv cby_env
+  cby_env\Scripts\activate    (no Windows)
+  source cby_env/bin/activate (no Linux/macOS)
+  pip install requests
+
+- Use SOMENTE em servidores que você possui ou tem autorização explícita para testar.
+- Teste primeiro com o URL padrão: http://httpbin.org/get (é seguro e feito para testes)
+
+====================================================================
+Pronto! Agora você tem tudo que precisa para rodar o programa.
+Qualquer dúvida, é só chamar.
+====================================================================
