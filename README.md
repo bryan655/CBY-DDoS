@@ -16,4 +16,8 @@ Se você clonar:
     - git clone https://github.com/bryan655/CBY-DDoS.git
     
     - Depois instale as dependências com pip install -r Requirements.txt e rode python CBY.py.
+
+    - cd CBY-DDoS
+
+    - python CBY.py
    
